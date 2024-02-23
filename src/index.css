@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+#root {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(135, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.div {
+  /* border: 2px solid red; */
+  border-radius: 2rem;
+  background: rgb(255, 208, 208);
+  font-family: "Source Code Pro", monospace;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 1.3rem;
+  color: rgb(255, 115, 115);
+  padding: 2rem;
+  box-shadow: 4px 4px;
+}
+
+.btnDiv {
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  margin: 1rem;
+}
+
+.btn {
+  /* border: 2px solid red; */
+  padding: 0.5rem 1rem;
+  border-radius: 1.2rem;
+  background: rgb(208, 232, 255);
+  font-family: "Source Code Pro", monospace;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 1.3rem;
+  color: rgb(0, 74, 120);
+  box-shadow: 2px 2px;
+}
+
+.btn:hover {
+    color: rgba(0, 74, 120, 0.5);
+}
+
+.btn:active {
+    box-shadow: none;
+}
