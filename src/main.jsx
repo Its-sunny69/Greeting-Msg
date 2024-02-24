@@ -33,16 +33,16 @@ let greet = "";
 
 const greetMsg = (time, greet) => {
   if (0 <= time && time <= 11) {
-    greet = greet.replace("", "Morning");
+    greet = "Morning";
     return greet;
   } else if (12 <= time && time <= 15) {
-    greet = greet.replace("", "Afternoon");
+    greet = "Afternoon";
     return greet;
   } else if (16 <= time && time <= 18) {
-    greet = greet.replace("", "Evening");
+    greet = "Evening";
     return greet;
   } else if (19 <= time && time <= 23) {
-    greet = greet.replace("", "Night");
+    greet = "Night";
     return greet;
   }
 };
